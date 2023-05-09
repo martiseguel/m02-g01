@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+
+
+body{ background-color: #e00000;}
+.container {
+
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 1390px;
+    background: #e60000;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+
+.container .left_side {
+
+    position: relative;
+    background: white;
+    padding: 10px 20px;
+
+}
+
+.container .left_side h2 {
+	font-family:'Kanit';
+	-webkit-text-stroke:0.7px #e60000;
+	color: black;
+}
+
+.container .left_side p {
+	font-family: 'Mukta' ;
+	color: black;
+}
+
+.container .left_side hr {
+	border: 2px solid #e60000 ;
+}
+
+.container .left_side img{
+	border: 10px solid #e60000;
+}
+
+.container .right_side {
+
+    position: relative;
+    background: black;
+    padding: 70px;
+}
+
+
+.container .right_side h1 {
+    -webkit-text-stroke:1.5px #e60000;
+    font-family: 'Kanit';
+    color: white;
+}
+
+.container .right_side h3 {
+    font-family: 'Montserrat';
+    -webkit-text-stroke:0.5px #e60000;
+    color: white;
+}
+
+.container .right_side h2 {
+	font-family: 'Kanit';
+	 -webkit-text-stroke:0.5px white;
+	color: #e60000;
+}
+
+.container .right_side h4 {
+    font-family: 'Kanit';
+    color: #e60000;
+}
+
+.container .right_side p {
+	font-family: 'Mukta' ;
+	color: white;
+}
+
+.container .right_side hr {
+	border: 2px solid white;
+}
+
+.container .right_side img{
+	border: 10px solid white;
+}
+
